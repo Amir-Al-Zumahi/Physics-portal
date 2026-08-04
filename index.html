@@ -1,19 +1,4 @@
-[2:08 am, 05/08/2026] Zumahi: <!DOCTYPE html>
-<html lang="bn">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhysiX - The Cosmic Code</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-slate-900 text-white min-h-screen flex flex-col justify-between">
-    <!-- Header -->
-    <header class="border-b border-slate-800 p-5 flex justify-between items-center max-w-6xl mx-auto w-full">
-        <h1 class="text-2xl font-bold text-cyan-400">PhysiX <span class="text-xs text-slate-400">by Cosmic Code</span></h1>
-        <div class="flex items-center space-x-4">
-            <div id="google_translate_element" class="text-xs"></div>
-            <div class="space-x-4 text-sm text-slate-300 hidde…
-[2:26 am, 05/08/2026] Zumahi: <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
@@ -21,55 +6,50 @@
     <title>PhysiX - The Cosmic Code</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom Styling for Translate Dropdown */
+        /* Top Navigation Translate Box Layout Fix */
+        #google_translate_element {
+            display: inline-block;
+        }
         .goog-te-gadget-simple {
             background-color: #0f172a !important;
             border: 1px solid #06b6d4 !important;
-            padding: 6px 12px !important;
-            border-radius: 8px !important;
-            font-family: inherit !important;
-            display: inline-flex !important;
-            align-items: center !important;
-            cursor: pointer !important;
-            transition: all 0.3s ease !important;
-        }
-        .goog-te-gadget-simple:hover {
-            border-color: #22d3ee !important;
-            box-shadow: 0 0 10px rgba(6, 182, 212, 0.3) !important;
-        }
-        .goog-te-menu-value {
-            color: #38bdf8 !important;
-            font-weight: 600 !important;
+            padding: 4px 10px !important;
+            border-radius: 6px !important;
             font-size: 13px !important;
-        }
-        .goog-te-menu-value span {
             color: #38bdf8 !important;
         }
-        /* Hide default Google Icon and branding fluff */
-        .goog-te-gadget-icon, .goog-te-banner-frame {
-            display: none !important;
+        .goog-te-gadget-simple span {
+            color: #38bdf8 !important;
         }
         body {
             top: 0px !important;
         }
+        .goog-te-banner-frame {
+            display: none !important;
+        }
     </style>
 </head>
 <body class="bg-slate-900 text-white min-h-screen flex flex-col justify-between">
-    <!-- Header -->
-    <header class="border-b border-slate-800 p-5 flex justify-between items-center max-w-6xl mx-auto w-full">
-        <h1 class="text-2xl font-bold text-cyan-400">PhysiX <span class="text-xs text-slate-400">by Cosmic Code</span></h1>
-        <div class="flex items-center space-x-4">
-            <!-- Customized Translate Widget -->
-            <div id="google_translate_element"></div>
+
+    <!-- Header Section -->
+    <header class="border-b border-slate-800 p-5 w-full bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <!-- Brand Logo -->
+            <h1 class="text-2xl font-bold text-cyan-400">PhysiX <span class="text-xs text-slate-400">by Cosmic Code</span></h1>
             
-            <div class="space-x-4 text-sm text-slate-300 hidden md:block">
-                <a href="#courses" class="hover:text-cyan-400 transition">কোর্সসমূহ</a>
-                <a href="#simulations" class="hover:text-cyan-400 transition">সিমুলেশন</a>
+            <!-- Right Corner Menu & Translator -->
+            <div class="flex items-center space-x-6">
+                <div class="hidden md:flex space-x-4 text-sm text-slate-300">
+                    <a href="#courses" class="hover:text-cyan-400 transition">কোর্সসমূহ</a>
+                    <a href="#simulations" class="hover:text-cyan-400 transition">সিমুলেশন</a>
+                </div>
+                <!-- Google Translate Dropdown in Top Right Corner -->
+                <div id="google_translate_element"></div>
             </div>
         </div>
     </header>
 
-    <!-- Hero Content -->
+    <!-- Main Hero Banner -->
     <main class="max-w-5xl mx-auto px-4 py-12">
         <div class="text-center">
             <span class="bg-cyan-950 text-cyan-400 text-xs px-4 py-1.5 rounded-full uppercase tracking-wider font-semibold border border-cyan-800/50">প্রাথমিক থেকে উচ্চতর ধাপ</span>
@@ -124,14 +104,14 @@
                 <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
                     <h4 class="text-lg font-semibold text-slate-200 mb-3">নিউটনের গতিসূত্র</h4>
                     <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/tBpu-G8WvL0" title="Physics Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/tBpu-G8WvL0" title="Physics Video" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <!-- Video Card 2 -->
                 <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
                     <h4 class="text-lg font-semibold text-slate-200 mb-3">মহাকর্ষ ও অভিকর্ষ (Basic Concepts)</h4>
                     <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
-                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Physics Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Physics Video" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -143,11 +123,11 @@
         &copy; 2026 PhysiX Portal. All rights reserved.
     </footer>
 
-    <!-- Google Translate Script -->
+    <!-- Google Translate Initialization -->
     <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
-                pageLanguage: 'bn', 
+                pageLanguage: 'bn',
                 includedLanguages: 'en,bn,hi,ar,es',
                 layout: google.translate.TranslateElement.InlineLayout.SIMPLE
             }, 'google_translate_element');
