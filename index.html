@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+[2:08 am, 05/08/2026] Zumahi: <!DOCTYPE html>
 <html lang="bn">
 <head>
     <meta charset="UTF-8">
@@ -10,62 +10,149 @@
     <!-- Header -->
     <header class="border-b border-slate-800 p-5 flex justify-between items-center max-w-6xl mx-auto w-full">
         <h1 class="text-2xl font-bold text-cyan-400">PhysiX <span class="text-xs text-slate-400">by Cosmic Code</span></h1>
-        <div class="space-x-4 text-sm text-slate-300">
-            <a href="#" class="hover:text-cyan-400">হোম</a>
-            <a href="#" class="hover:text-cyan-400">কোর্সসমূহ</a>
-            <a href="#" class="hover:text-cyan-400">সিমুলেশন</a>
+        <div class="flex items-center space-x-4">
+            <div id="google_translate_element" class="text-xs"></div>
+            <div class="space-x-4 text-sm text-slate-300 hidde…
+[2:26 am, 05/08/2026] Zumahi: <!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysiX - The Cosmic Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Styling for Translate Dropdown */
+        .goog-te-gadget-simple {
+            background-color: #0f172a !important;
+            border: 1px solid #06b6d4 !important;
+            padding: 6px 12px !important;
+            border-radius: 8px !important;
+            font-family: inherit !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            cursor: pointer !important;
+            transition: all 0.3s ease !important;
+        }
+        .goog-te-gadget-simple:hover {
+            border-color: #22d3ee !important;
+            box-shadow: 0 0 10px rgba(6, 182, 212, 0.3) !important;
+        }
+        .goog-te-menu-value {
+            color: #38bdf8 !important;
+            font-weight: 600 !important;
+            font-size: 13px !important;
+        }
+        .goog-te-menu-value span {
+            color: #38bdf8 !important;
+        }
+        /* Hide default Google Icon and branding fluff */
+        .goog-te-gadget-icon, .goog-te-banner-frame {
+            display: none !important;
+        }
+        body {
+            top: 0px !important;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-white min-h-screen flex flex-col justify-between">
+    <!-- Header -->
+    <header class="border-b border-slate-800 p-5 flex justify-between items-center max-w-6xl mx-auto w-full">
+        <h1 class="text-2xl font-bold text-cyan-400">PhysiX <span class="text-xs text-slate-400">by Cosmic Code</span></h1>
+        <div class="flex items-center space-x-4">
+            <!-- Customized Translate Widget -->
+            <div id="google_translate_element"></div>
+            
+            <div class="space-x-4 text-sm text-slate-300 hidden md:block">
+                <a href="#courses" class="hover:text-cyan-400 transition">কোর্সসমূহ</a>
+                <a href="#simulations" class="hover:text-cyan-400 transition">সিমুলেশন</a>
+            </div>
         </div>
-        <!-- Google Translate Element -->
-        <div id="google_translate_element" class="text-xs"></div>
     </header>
 
     <!-- Hero Content -->
-    <main class="max-w-4xl mx-auto text-center px-4 py-16">
-        <span class="bg-cyan-950 text-cyan-400 text-xs px-3 py-1 rounded-full uppercase tracking-wider font-semibold">প্রাথমিক থেকে উচ্চতর ধাপ</span>
-        <h2 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">মহাবিশ্বের গোপন রহস্য ও <br><span class="text-cyan-400">পদার্থবিজ্ঞানের যাত্রা</span></h2>
-        <p class="mt-4 text-slate-400 text-lg">সহজ ভাষায় ফিজিক্সকে ট্রিগার করুন, থ্রিডি সিমুলেশনে এপ্লিকেশন দেখুন এবং আপনার জ্ঞানকে বাড়ান।</p>
-        
-        <!-- Category Cards -->
+    <main class="max-w-5xl mx-auto px-4 py-12">
+        <div class="text-center">
+            <span class="bg-cyan-950 text-cyan-400 text-xs px-4 py-1.5 rounded-full uppercase tracking-wider font-semibold border border-cyan-800/50">প্রাথমিক থেকে উচ্চতর ধাপ</span>
+            <h2 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">মহাবিশ্বের গোপন রহস্য ও <br><span class="text-cyan-400">পদার্থবিজ্ঞানের যাত্রা</span></h2>
+            <p class="mt-4 text-slate-300 text-base md:text-lg">সহজ ভাষায় ফিজিক্সকে ট্রিগার করুন, থ্রিডি সিমুলেশনে এপ্লিকেশন দেখুন এবং আপনার জ্ঞানকে বাড়ান</p>
+        </div>
+
+        <!-- Course / Stage Cards -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 text-left">
             <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
                 <h3 class="text-xl font-bold text-cyan-300">প্রাথমিক ধাপ</h3>
                 <p class="text-slate-400 text-sm mt-2">গতি, শক্তি, আলো ও বিদ্যুতের সহজ বৈজ্ঞানিক ব্যাখ্যা ও মজার পরীক্ষা।</p>
-           <!-- YouTube Video Card -->
-<div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700">
-    <h3 class="text-lg font-bold text-cyan-300 mb-3">লেকচার ১: বল ও নিউটনের গতিসূত্র</h3>
-    <div class="aspect-video w-full rounded-lg overflow-hidden">
-        <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
-                <!-- PhET Simulation Card -->
-<div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700">
-    <h3 class="text-lg font-bold text-cyan-300 mb-3">থ্রিডি সিমুলেশন: সরল দোলক (Pendulum)</h3>
-    <div class="aspect-video w-full rounded-lg overflow-hidden">
-        <iframe class="w-full h-full" src="https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_all.html" allowfullscreen></iframe>
-    </div>
-</div>
             </div>
             <div class="bg-slate-800/50 p-6 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
                 <h3 class="text-xl font-bold text-cyan-300">উচ্চতর ধাপ</h3>
                 <p class="text-slate-400 text-sm mt-2">ভেক্টর, নিউটোনীয় বলবিদ্যা, থার্মোডায়নামিক্স ও গাণিতিক সমাধান।</p>
             </div>
         </div>
+
+        <!-- 1. Interactive 3D Simulation Section -->
+        <section id="simulations" class="mt-16">
+            <h3 class="text-2xl font-bold text-cyan-400 mb-6 flex items-center gap-2">
+                🧪 থ্রিডি সিমুলেশন ল্যাব (PhET Interactive Lab)
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Simulation 1 -->
+                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
+                    <h4 class="text-lg font-semibold text-slate-200 mb-3">সরল দোলক (Pendulum Lab)</h4>
+                    <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
+                        <iframe class="w-full h-full" src="https://phet.colorado.edu/sims/html/pendulum-lab/latest/pendulum-lab_all.html" allowfullscreen></iframe>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2">দোলকের দৈর্ঘ্য ও ভর পরিবর্তন করে পর্যায়কাল পরীক্ষা করে দেখুন।</p>
+                </div>
+                <!-- Simulation 2 -->
+                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
+                    <h4 class="text-lg font-semibold text-slate-200 mb-3">গ্র্যাভিটি ও কক্ষপথ (Gravity & Orbits)</h4>
+                    <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
+                        <iframe class="w-full h-full" src="https://phet.colorado.edu/sims/html/gravity-and-orbits/latest/gravity-and-orbits_all.html" allowfullscreen></iframe>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2">সূর্য, পৃথিবী ও চাঁদের মহাকর্ষীয় আকর্ষণ পর্যবেক্ষণ করুন।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Video Lecture Section -->
+        <section id="courses" class="mt-16">
+            <h3 class="text-2xl font-bold text-cyan-400 mb-6 flex items-center gap-2">
+                📺 ভিডিও লেকচার ও ক্লাস
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Video Card 1 -->
+                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
+                    <h4 class="text-lg font-semibold text-slate-200 mb-3">নিউটনের গতিসূত্র</h4>
+                    <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/tBpu-G8WvL0" title="Physics Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Video Card 2 -->
+                <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 hover:border-cyan-500 transition">
+                    <h4 class="text-lg font-semibold text-slate-200 mb-3">মহাকর্ষ ও অভিকর্ষ (Basic Concepts)</h4>
+                    <div class="aspect-video w-full rounded-lg overflow-hidden border border-slate-800">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Physics Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
-    <footer class="text-center py-6 border-t border-slate-800 text-xs text-slate-500">
+    <footer class="text-center py-6 border-t border-slate-800 text-xs text-slate-500 mt-16">
         &copy; 2026 PhysiX Portal. All rights reserved.
     </footer>
+
     <!-- Google Translate Script -->
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-            pageLanguage: 'bn', 
-            includedLanguages: 'en,bn,hi,ar,es', // যে ভাষাগুলো রাখতে চান
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
-    }
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'bn', 
+                includedLanguages: 'en,bn,hi,ar,es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
