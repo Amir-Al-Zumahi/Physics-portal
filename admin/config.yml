@@ -2,6 +2,7 @@ backend:
   name: github
   repo: amir-al-zumahi/physics-portal
   branch: main
+  auth_endpoint: https://decap-cms-oauth-provider.vercel.app/auth
 
 media_folder: "images"
 public_folder: "/images"
