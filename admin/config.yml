@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "lessons"
+    label: "Physics Lessons & Videos"
+    folder: "content/lessons"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "select", options: ["Primary Stage", "Higher Stage"]}
+      - {label: "YouTube Video Embed Link", name: "video_url", widget: "string", required: false}
+      - {label: "PhET Simulation Embed Link", name: "phet_url", widget: "string", required: false}
+      - {label: "Description", name: "body", widget: "markdown"}
